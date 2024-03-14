@@ -1,0 +1,39 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: s1;
+    src: url(signatra/Signatra.ttf);
+}
+
+body{
+    background-color: #fddbca;
+}
+footer svg{
+   position: absolute; 
+   bottom: 0px;
+   width: 100vw;
+   left: 0;
+
+}
+
+footer p{
+    margin-top: 22vh;
+    position: absolute;
+    bottom: 0;
+    z-index: 1;
+}
+
+.container{
+    margin-left:37%;
+    margin-top: 13%;
+}
+
+h1{
+    font-family: s1;
+    font-size: 80px;
+}
+
+button{
+    background-color: plum;
+    color: #272524;
+}
